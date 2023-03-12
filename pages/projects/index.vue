@@ -21,7 +21,8 @@
         </div>
       </NuxtLink>
 
-      <NuxtLink class="flex flex-1 flex-col border border-white m-2 p-4 hover:border-yellow-500 hover:pb-28 hover:pr-32 hover:bg-stone-900  hover:text-white " 
+      <NuxtLink
+        class="flex flex-1 flex-col border border-white m-2 p-4 hover:border-yellow-500 hover:pb-28 hover:pr-32 hover:bg-stone-900  hover:text-white "
         to="projects/Wallbyte">
         <h1 class="text-2xl font-medium text-yellow-500 hover:underline">Wallbyte :</h1>
         <br>
@@ -56,7 +57,8 @@
         </div>
       </NuxtLink>
 
-      <NuxtLink class="flex flex-1 flex-col border border-white m-2 p-4 hover:border-yellow-500 hover:pb-28 hover:pr-32   hover:bg-stone-900"
+      <NuxtLink
+        class="flex flex-1 flex-col border border-white m-2 p-4 hover:border-yellow-500 hover:pb-28 hover:pr-32   hover:bg-stone-900"
         to="projects/Wallbyte">
         <h1 class="text-2xl font-medium text-yellow-500 hover:underline">Wallbyte :</h1>
         <br>
@@ -73,5 +75,7 @@
         </div>
       </NuxtLink>
     </div>
+
+    
   </div>
 </template>

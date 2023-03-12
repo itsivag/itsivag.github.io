@@ -1,7 +1,8 @@
 <template>
-  <div class="h-screen flex flex-col justify-center">
-    <div>
-      <h1 class="py-8 px-4 text-3xl">About <span class="text-yellow-500 hover:underline"> <a target="_blank" href = "https://www.instagram.com/itsivag/">Me</a></span> :</h1>
+  <div class="h-screen flex justify-center">
+    <div class="my-auto">
+      <h1 class="py-8 px-4 text-3xl">About <span class="text-yellow-500 hover:underline"> <a target="_blank"
+            href="https://www.instagram.com/itsivag/">Me</a></span> :</h1>
       <p class="p-4 text-2xl">
         A <span class="text-yellow-500">Computer Science</span> student at
         <span class="text-yellow-500">Anna University</span>

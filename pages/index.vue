@@ -11,13 +11,13 @@
           </p>
         </div>
         <div class="px-4 py-4">
-          <button class="border border-yellow-500 mx-1">
+          <button class="border border-yellow-500 mx-1" @click="sendEmail">
             <span class="inline-block bg-yellow-500 p-2">Have an Idea?</span>
             <span class="p-2 hover:text-yellow-500">Let's Talk</span>
           </button>
         </div>
       </div>
-      <div class="bg-black ml-auto overflow-hidden">
+      <div class="bg-stone-900 ml-auto overflow-hidden">
         <ul class="flex flex-col gap-12 slide-infinite">
           <li class="rotate-90 hover:text-yellow-500">ANDROID</li>
           <li class="rotate-90 hover:text-yellow-500">CODING</li>
@@ -28,3 +28,17 @@
         </ul>
       </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    sendEmail() {
+      const email = "sivacbrf2@gmail.com";
+      const subject = "Your Portfolio is Lit!";
+      const body = "Hello Siva, I'm reaching out from your portfolio!";
+      const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(mailtoUrl);
+    }
+  }
+}
+</script>
